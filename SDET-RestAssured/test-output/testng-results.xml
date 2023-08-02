@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-01T14:30:29 IST" name="Default suite" finished-at="2023-08-01T14:30:33 IST" duration-ms="4240">
+    <groups>
+    </groups>
+    <test started-at="2023-08-01T14:30:29 IST" name="Default test" finished-at="2023-08-01T14:30:33 IST" duration-ms="4240">
+      <class name="TestAPI">
+        <test-method signature="auth()[pri:0, instance:TestAPI@342c38f8]" started-at="2023-08-01T14:30:29 IST" name="auth" finished-at="2023-08-01T14:30:31 IST" duration-ms="2548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auth -->
+        <test-method signature="post(java.lang.String,java.lang.String)[pri:0, instance:TestAPI@342c38f8]" started-at="2023-08-01T14:30:31 IST" name="post" data-provider="dpadd" finished-at="2023-08-01T14:30:32 IST" duration-ms="569" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aaaa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[leader]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="post(java.lang.String,java.lang.String)[pri:0, instance:TestAPI@342c38f8]" started-at="2023-08-01T14:30:32 IST" name="post" data-provider="dpadd" finished-at="2023-08-01T14:30:32 IST" duration-ms="489" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bbbb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[developer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="post(java.lang.String,java.lang.String)[pri:0, instance:TestAPI@342c38f8]" started-at="2023-08-01T14:30:32 IST" name="post" data-provider="dpadd" finished-at="2023-08-01T14:30:33 IST" duration-ms="575" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cccc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tester]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+      </class> <!-- TestAPI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
