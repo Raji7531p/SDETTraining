@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite1]" guice-stage="DEVELOPMENT">
+  <test name="Test1">
+    <classes>
+      <class name="com.myfirstmavenproject.junit.CalculatorTest"/>
+    </classes>
+  </test> <!-- Test1 -->
+  <test thread-count="1" parallel="methods" name="Test2">
+    <classes>
+      <class name="com.myfirstmavenproject.junit.Amazonappln"/>
+    </classes>
+  </test> <!-- Test2 -->
+  <test parallel="none" name="Test1(failed)">
+    <classes>
+      <class name="com.myfirstmavenproject.junit.CalculatorTest">
+        <methods>
+          <include name="add1" invocation-numbers="1 2 3 4 5 6"/>
+        </methods>
+      </class> <!-- com.myfirstmavenproject.junit.CalculatorTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
